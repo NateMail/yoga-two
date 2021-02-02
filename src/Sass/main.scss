@@ -1,0 +1,21 @@
+// Sass Abstracts
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+// Sass Base
+@import "./base/animations";
+@import "./base/base";
+@import "./base/typography";
+@import "./base/utilities";
+
+// Sass Components
+@import "./components/switcher";
+@import "./components/home";
+@import "./components/second";
+
+// Sass Layouts
+@import "./layouts/nav";
+@import "./layouts/mainLayout";
+
+// Sass Pages
