@@ -2,20 +2,20 @@ import React from "react";
 import { withRouter, Route, Switch } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Home from "./Home";
-import First from "./First";
-import Second from "./Second";
-import Third from "./Third";
-import Fourth from "./Fourth";
+import Video from "./Video";
+import Calendar from "./Calendar";
+import User from "./User";
+import About from "./About";
 
 const AnimatedSwitch = withRouter(({ location }) => (
   <TransitionGroup>
     <CSSTransition key={location.key} classNames="slide" timeout={1000}>
       <Switch location={location}>
         <Route exact path="/" component={Home} />
-        <Route exact path="/first" component={First} />
-        <Route exact path="/second" component={Second} />
-        <Route exact path="/third" component={Third} />
-        <Route exact path="/fourth" component={Fourth} />
+        <Route exact path="/video" component={Video} />
+        <Route exact path="/calendar" component={Calendar} />
+        <Route exact path="/user" component={User} />
+        <Route exact path="/about" component={About} />
       </Switch>
     </CSSTransition>
   </TransitionGroup>

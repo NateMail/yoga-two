@@ -18,22 +18,22 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link to="/first" className="nav__links">
+          <Link to="/video" className="nav__links">
             <FaVideo />
           </Link>
         </li>
         <li>
-          <Link to="/second" className="nav__links">
+          <Link to="/calendar" className="nav__links">
             <FaCalendarAlt />
           </Link>
         </li>
         <li>
-          <Link to="/third" className="nav__links">
+          <Link to="/user" className="nav__links">
             <FaUser />
           </Link>
         </li>
         <li>
-          <Link to="/fourth" className="nav__links">
+          <Link to="/about" className="nav__links">
             <FaRegIdCard />
           </Link>
         </li>

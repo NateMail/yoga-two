@@ -38,22 +38,22 @@ body {
   height: 100vh;
   width: 100vw; }
 
-.second {
+.calendar {
   background: lightgreen;
   height: 100vh;
   width: 100vw; }
 
-.first {
+.video {
   background: tan;
   height: 100vh;
   width: 100vw; }
 
-.third {
+.user {
   background: pink;
   height: 100vh;
   width: 100vw; }
 
-.fourth {
+.about {
   background: lightcoral;
   height: 100vh;
   width: 100vw; }
