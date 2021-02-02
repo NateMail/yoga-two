@@ -34,12 +34,12 @@ body {
   transform: translateX(-100%); }
 
 .home {
-  background: blue;
+  background: lightseagreen;
   height: 100vh;
   width: 100vw; }
 
 .second {
-  background: green;
+  background: lightgreen;
   height: 100vh;
   width: 100vw; }
 
@@ -54,7 +54,7 @@ body {
   width: 100vw; }
 
 .fourth {
-  background: maroon;
+  background: lightcoral;
   height: 100vh;
   width: 100vw; }
 
@@ -85,12 +85,16 @@ body {
 
 .footer {
   background: black;
-  color: white;
   height: 5vh;
   width: 100vw; }
+  .footer__text {
+    color: white;
+    text-align: center; }
 
 .quotes {
   background: lightblue;
-  color: black;
   height: 5vh;
   width: 100vw; }
+  .quotes__text {
+    color: black;
+    text-align: center; }

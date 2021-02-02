@@ -1,6 +1,10 @@
 .footer {
   background: black;
-  color: white;
   height: 5vh;
   width: 100vw;
+
+  &__text {
+    color: white;
+    text-align: center;
+  }
 }
