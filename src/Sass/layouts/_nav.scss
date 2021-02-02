@@ -1,18 +1,20 @@
 .nav {
+  border-radius: 5%;
   list-style-type: none;
-  margin: 0;
+  margin-top: 15%;
   padding: 0;
   font-size: 2rem;
   width: 10vw;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
-  height: 100vh;
+  height: fit-content;
   overflow: auto;
+  z-index: 1;
 
   &__links {
     display: block;
     color: black;
-    margin-top: 75%;
+    margin: 10% 0;
     text-align: center;
     text-decoration: none;
   }

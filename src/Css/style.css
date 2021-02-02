@@ -8,6 +8,10 @@
 html {
   font-size: 62.5%; }
 
+body {
+  height: 100vh;
+  width: 100vw; }
+
 .slide-enter,
 .slide-exit {
   transition: transform 1000ms ease-out;
@@ -55,25 +59,38 @@ html {
   width: 100vw; }
 
 .nav {
+  border-radius: 5%;
   list-style-type: none;
-  margin: 0;
+  margin-top: 15%;
   padding: 0;
   font-size: 2rem;
   width: 10vw;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
-  height: 100vh;
-  overflow: auto; }
+  height: fit-content;
+  overflow: auto;
+  z-index: 1; }
   .nav__links {
     display: block;
     color: black;
-    margin-top: 75%;
+    margin: 10% 0;
     text-align: center;
     text-decoration: none; }
 
 .page-container {
-  background-color: #dcdcde;
-  height: 100vh;
-  width: 90vw;
-  margin-left: 10vw;
-  overflow: scroll; }
+  background-color: grey;
+  height: 90vh;
+  width: 100vw;
+  overflow: hidden; }
+
+.footer {
+  background: black;
+  color: white;
+  height: 5vh;
+  width: 100vw; }
+
+.quotes {
+  background: lightblue;
+  color: black;
+  height: 5vh;
+  width: 100vw; }
