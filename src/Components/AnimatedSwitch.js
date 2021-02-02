@@ -12,10 +12,10 @@ const AnimatedSwitch = withRouter(({ location }) => (
     <CSSTransition key={location.key} classNames="slide" timeout={1000}>
       <Switch location={location}>
         <Route exact path="/" component={Home} />
-        <Route path="/first" component={First} />
-        <Route path="/second" component={Second} />
-        <Route path="/third" component={Third} />
-        <Route path="/fourth" component={Fourth} />
+        <Route exact path="/first" component={First} />
+        <Route exact path="/second" component={Second} />
+        <Route exact path="/third" component={Third} />
+        <Route exact path="/fourth" component={Fourth} />
       </Switch>
     </CSSTransition>
   </TransitionGroup>

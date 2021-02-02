@@ -1,6 +1,7 @@
 .slide-enter,
 .slide-exit {
   transition: transform 1000ms ease-out;
+  z-index: -1;
 }
 
 .slide-enter {

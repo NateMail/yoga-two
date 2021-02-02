@@ -1,24 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {
+  FaCalendarAlt,
+  FaHome,
+  FaUser,
+  FaVideo,
+  FaRegIdCard,
+} from "react-icons/fa";
 
 const Nav = () => {
   return (
-    <nav className="nav">
-      <ul>
+    <nav>
+      <ul className="nav">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" className="nav__links">
+            <FaHome />
+          </Link>
         </li>
         <li>
-          <Link to="/first">First</Link>
+          <Link to="/first" className="nav__links">
+            <FaVideo />
+          </Link>
         </li>
         <li>
-          <Link to="/second">Second</Link>
+          <Link to="/second" className="nav__links">
+            <FaCalendarAlt />
+          </Link>
         </li>
         <li>
-          <Link to="/third">Third</Link>
+          <Link to="/third" className="nav__links">
+            <FaUser />
+          </Link>
         </li>
         <li>
-          <Link to="/fourth">Fourth</Link>
+          <Link to="/fourth" className="nav__links">
+            <FaRegIdCard />
+          </Link>
         </li>
       </ul>
     </nav>

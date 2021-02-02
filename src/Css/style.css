@@ -10,7 +10,8 @@ html {
 
 .slide-enter,
 .slide-exit {
-  transition: transform 1000ms ease-out; }
+  transition: transform 1000ms ease-out;
+  z-index: -1; }
 
 .slide-enter {
   transform: translateX(100%); }
@@ -30,11 +31,26 @@ html {
 
 .home {
   background: blue;
-  height: 100%;
-  width: 100%; }
+  height: 100vh;
+  width: 100vw; }
 
 .second {
   background: green;
+  height: 100vh;
+  width: 100vw; }
+
+.first {
+  background: tan;
+  height: 100vh;
+  width: 100vw; }
+
+.third {
+  background: pink;
+  height: 100vh;
+  width: 100vw; }
+
+.fourth {
+  background: maroon;
   height: 100vh;
   width: 100vw; }
 
@@ -43,15 +59,21 @@ html {
   margin: 0;
   padding: 0;
   font-size: 2rem;
-  width: 15vw;
+  width: 10vw;
   background-color: white;
   position: absolute;
   height: 100vh;
   overflow: auto; }
+  .nav__links {
+    display: block;
+    color: black;
+    margin-top: 75%;
+    text-align: center;
+    text-decoration: none; }
 
 .page-container {
   background-color: #dcdcde;
   height: 100vh;
-  width: 85vw;
-  margin-left: 15vw;
+  width: 90vw;
+  margin-left: 10vw;
   overflow: scroll; }
